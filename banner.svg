@@ -1,28 +1,154 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Orieb Alzyuot, Senior UI/UX and Front-End">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-label="Orieb Alzyuot — Senior UI/UX and Front-End Developer, floating in purple space">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#3B0764"/>
-      <stop offset="0.55" stop-color="#6D28D9"/>
+    <radialGradient id="space" cx="70%" cy="30%" r="90%">
+      <stop offset="0" stop-color="#5B21B6"/>
+      <stop offset="0.5" stop-color="#2E1065"/>
+      <stop offset="1" stop-color="#12042B"/>
+    </radialGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#3B0764"/>
+    </linearGradient>
+    <linearGradient id="planet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0ABFC"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#DDD6FE"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EDE9FE"/>
       <stop offset="1" stop-color="#C4B5FD"/>
     </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
   </defs>
-  <rect width="1000" height="320" rx="28" fill="url(#bg)"/>
-  <circle cx="860" cy="40" r="90" fill="#ffffff" opacity="0.08"/>
-  <circle cx="120" cy="280" r="70" fill="#ffffff" opacity="0.08"/>
 
-  <g transform="translate(78,46)">
-    <ellipse cx="92" cy="210" rx="78" ry="28" fill="#2E1065" opacity="0.35"/>
-    <path d="M40 168c0-8 18-22 52-22s52 14 52 22v46c0 28-23 46-52 46s-52-18-52-46z" fill="#E9D5FF"/>
-    <path d="M28 118c8-62 36-96 72-96 28 0 48 16 58 40 14-10 30-8 42 6 8 28-6 62-22 78-22 8-46 6-62-2-6 22-28 36-52 36-34 0-52-24-52-52 0-6 1-8 4-10z" fill="#2E1065"/>
-    <circle cx="92" cy="112" r="40" fill="#F5E6FF"/>
-    <path d="M58 104c6-28 22-44 40-44 16 0 28 10 34 26-18 2-34 10-46 24-10-2-20-4-28-6z" fill="#4C1D95" opacity="0.35"/>
-    <circle cx="80" cy="112" r="3.2" fill="#3B0764"/>
-    <circle cx="104" cy="112" r="3.2" fill="#3B0764"/>
-    <path d="M82 126c6 6 14 6 20 0" fill="none" stroke="#6D28D9" stroke-width="2.4" stroke-linecap="round"/>
-    <path d="M52 188h80" fill="none" stroke="#7C3AED" stroke-width="8" stroke-linecap="round" opacity="0.35"/>
+  <!-- deep space -->
+  <rect width="1000" height="360" rx="28" fill="url(#space)"/>
+  <ellipse cx="820" cy="80" rx="260" ry="90" fill="#A855F7" opacity=".14" filter="url(#glow)" transform="rotate(-18 820 80)"/>
+  <ellipse cx="150" cy="320" rx="220" ry="60" fill="#C084FC" opacity=".12" filter="url(#glow)"/>
+
+  <!-- stars -->
+  <g fill="#F5F3FF">
+    <circle cx="60" cy="40" r="1.6"/><circle cx="130" cy="90" r="1.2"/><circle cx="40" cy="150" r="1.4"/>
+    <circle cx="420" cy="30" r="1.8"/><circle cx="500" cy="60" r="1.2"/><circle cx="560" cy="24" r="1.4"/>
+    <circle cx="640" cy="70" r="2"/><circle cx="720" cy="36" r="1.2"/><circle cx="790" cy="140" r="1.4"/>
+    <circle cx="880" cy="40" r="1.6"/><circle cx="950" cy="110" r="1.4"/><circle cx="970" cy="220" r="1.8"/>
+    <circle cx="900" cy="300" r="1.4"/><circle cx="700" cy="330" r="1.2"/><circle cx="600" cy="300" r="1.6"/>
+    <circle cx="320" cy="60" r="1.2"/><circle cx="360" cy="330" r="1.4"/><circle cx="240" cy="30" r="1.4"/>
+  </g>
+  <g fill="#F0ABFC">
+    <path d="M470 110 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3z"/>
+    <path d="M930 160 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4z"/>
+    <path d="M300 300 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z"/>
+    <path d="M690 250 l2.5 7 7 2.5 -7 2.5 -2.5 7 -2.5 -7 -7 -2.5 7 -2.5z" opacity=".8"/>
   </g>
 
-  <text x="310" y="128" fill="#F5F3FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="700">Orieb Alzyuot</text>
-  <text x="310" y="172" fill="#E9D5FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22">Senior UI/UX and Front-End</text>
-  <text x="310" y="214" fill="#DDD6FE" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Amman  |  Remote  |  Open to work</text>
+  <!-- shooting star -->
+  <path d="M600 90 L700 50" stroke="#F5F3FF" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <circle cx="700" cy="50" r="3" fill="#FFFFFF" filter="url(#softglow)"/>
+
+  <!-- ringed planet -->
+  <g transform="translate(880 250)">
+    <circle r="34" fill="url(#planet)"/>
+    <ellipse rx="58" ry="14" fill="none" stroke="#E9D5FF" stroke-width="4" opacity=".8" transform="rotate(-18)"/>
+    <circle cx="-10" cy="-8" r="6" fill="#F5F3FF" opacity=".35"/>
+  </g>
+  <!-- small moon -->
+  <circle cx="560" cy="290" r="12" fill="#C4B5FD"/>
+  <circle cx="556" cy="286" r="3" fill="#A78BFA"/>
+  <circle cx="565" cy="293" r="2" fill="#A78BFA"/>
+
+  <!-- ORIEB illustration: floating astronaut-dev girl -->
+  <g transform="translate(70,40)">
+    <!-- floating laptop glow -->
+    <ellipse cx="130" cy="250" rx="110" ry="14" fill="#A855F7" opacity=".25" filter="url(#glow)"/>
+
+    <!-- body (space suit) -->
+    <path d="M70 232c0-40 26-66 60-66s60 26 60 66z" fill="url(#suit)"/>
+    <path d="M110 176q20 -10 40 0v22q-20 -8 -40 0z" fill="#A78BFA"/>
+    <!-- suit badge: smile -->
+    <circle cx="150" cy="208" r="10" fill="#7C3AED"/>
+    <circle cx="146" cy="206" r="1.4" fill="#F5F3FF"/><circle cx="154" cy="206" r="1.4" fill="#F5F3FF"/>
+    <path d="M145 211q5 4 10 0" stroke="#F5F3FF" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <!-- arms -->
+    <path d="M78 202q-22 20 -22 36" stroke="#EDE9FE" stroke-width="15" stroke-linecap="round" fill="none"/>
+    <path d="M182 202q22 20 22 36" stroke="#EDE9FE" stroke-width="15" stroke-linecap="round" fill="none"/>
+
+    <!-- neck + head -->
+    <rect x="120" y="144" width="20" height="26" rx="8" fill="#F5E6FF"/>
+    <circle cx="130" cy="116" r="40" fill="#F5E6FF"/>
+
+    <!-- long wavy purple hair -->
+    <path d="M90 112c-2-52 30-78 68-70 26 6 42 30 40 66-4-16-14-28-34-34-12 10-30 16-50 14-10 6-18 14-24 24z" fill="url(#hair)"/>
+    <path d="M90 108c-24 32-26 90-8 126 8-32 8-66 20-96z" fill="url(#hair)"/>
+    <path d="M170 108c24 32 26 90 8 126-8-32-8-66-20-96z" fill="url(#hair)"/>
+    <circle cx="178" cy="72" r="15" fill="url(#hair)"/>
+    <circle cx="178" cy="72" r="5" fill="#C4B5FD" opacity=".6"/>
+
+    <!-- helmet ring (glass visor, open) -->
+    <circle cx="130" cy="112" r="56" fill="#C084FC" opacity=".12"/>
+    <circle cx="130" cy="112" r="56" fill="none" stroke="#E9D5FF" stroke-width="2.5" opacity=".7"/>
+    <path d="M92 76q18 -20 40 -18" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity=".6"/>
+
+    <!-- face — big smile -->
+    <circle cx="116" cy="116" r="3.6" fill="#3B0764"/>
+    <circle cx="144" cy="116" r="3.6" fill="#3B0764"/>
+    <path d="M114 128q16 14 32 0" fill="none" stroke="#6D28D9" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="104" cy="126" r="5.5" fill="#F0ABFC" opacity=".6"/>
+    <circle cx="156" cy="126" r="5.5" fill="#F0ABFC" opacity=".6"/>
+    <!-- glasses -->
+    <g fill="none" stroke="#7C3AED" stroke-width="2.4">
+      <rect x="104" y="106" width="24" height="18" rx="7"/>
+      <rect x="132" y="106" width="24" height="18" rx="7"/>
+      <path d="M128 115h4"/>
+    </g>
+
+    <!-- laptop -->
+    <path d="M40 232 L54 176 L206 176 L220 232 Z" fill="#1E0B3D"/>
+    <path d="M50 228 L60 182 L200 182 L210 228 Z" fill="url(#screen)"/>
+    <rect x="30" y="230" width="200" height="8" rx="4" fill="#7C3AED"/>
+    <g fill="#7C3AED">
+      <rect x="70" y="190" width="36" height="4" rx="2"/>
+      <rect x="76" y="198" width="70" height="4" rx="2" fill="#A855F7"/>
+      <rect x="76" y="206" width="50" height="4" rx="2"/>
+      <rect x="82" y="214" width="80" height="4" rx="2" fill="#C084FC"/>
+    </g>
+
+    <!-- floating coffee -->
+    <g transform="translate(236 150) rotate(-12)">
+      <rect x="0" y="0" width="22" height="24" rx="4" fill="#F5F3FF"/>
+      <path d="M22 7q10 0 10 8t-10 8" stroke="#F5F3FF" stroke-width="3.5" fill="none"/>
+      <path d="M7 -6q3 -5 0 -10M15 -6q3 -5 0 -10" stroke="#F0ABFC" stroke-width="2" fill="none" opacity=".8"/>
+    </g>
+
+    <!-- whale (fish & whale mindset) -->
+    <g transform="translate(-30 270) scale(.55)">
+      <path d="M0 20q30 -30 80 -10q30 12 60 0q-10 20 -30 24q-40 8 -80 -4q-20 -6 -30 -10z" fill="#C4B5FD"/>
+      <path d="M140 10q14 -18 26 -8q-8 6 -10 18q-8 -4 -16 -10z" fill="#C4B5FD"/>
+      <circle cx="30" cy="16" r="3" fill="#2E1065"/>
+      <path d="M60 -4q0 -14 8 -20M60 -4q0 -14 -6 -20" stroke="#E9D5FF" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </g>
+  </g>
+
+  <!-- text -->
+  <text x="360" y="112" fill="#F5F3FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="800">Orieb Alzyuot</text>
+  <text x="682" y="112" fill="#F0ABFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30">✨</text>
+  <text x="360" y="156" fill="#E9D5FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22">Senior UI/UX &amp; Front-End Developer</text>
+  <text x="360" y="194" fill="#DDD6FE" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Angular  ·  .NET  ·  React Native  ·  Figma</text>
+  <text x="360" y="232" fill="#C4B5FD" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-style="italic">Amman  |  Remote  |  Open to work</text>
+
+  <!-- Smile tag -->
+  <g transform="translate(360 262)">
+    <rect width="214" height="34" rx="17" fill="#A855F7" opacity=".28"/>
+    <rect width="214" height="34" rx="17" fill="none" stroke="#E9D5FF" stroke-width="1.5" opacity=".7"/>
+    <text x="107" y="23" text-anchor="middle" fill="#F5F3FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Smile ☁️ ✨ 🐋  ·  the Orieb way</text>
+  </g>
+
+  <!-- code tag -->
+  <g font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700" fill="#F5F3FF" opacity=".85">
+    <text x="640" y="320" fill="#E9D5FF">{ design → code → smile }</text>
+  </g>
 </svg>
