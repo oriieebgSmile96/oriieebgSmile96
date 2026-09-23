@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Orieb Alzyuot, Senior UI/UX and Front-End">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B0764"/>
+      <stop offset="0.55" stop-color="#6D28D9"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="320" rx="28" fill="url(#bg)"/>
+  <circle cx="860" cy="40" r="90" fill="#ffffff" opacity="0.08"/>
+  <circle cx="120" cy="280" r="70" fill="#ffffff" opacity="0.08"/>
+
+  <g transform="translate(78,46)">
+    <ellipse cx="92" cy="210" rx="78" ry="28" fill="#2E1065" opacity="0.35"/>
+    <path d="M40 168c0-8 18-22 52-22s52 14 52 22v46c0 28-23 46-52 46s-52-18-52-46z" fill="#E9D5FF"/>
+    <path d="M28 118c8-62 36-96 72-96 28 0 48 16 58 40 14-10 30-8 42 6 8 28-6 62-22 78-22 8-46 6-62-2-6 22-28 36-52 36-34 0-52-24-52-52 0-6 1-8 4-10z" fill="#2E1065"/>
+    <circle cx="92" cy="112" r="40" fill="#F5E6FF"/>
+    <path d="M58 104c6-28 22-44 40-44 16 0 28 10 34 26-18 2-34 10-46 24-10-2-20-4-28-6z" fill="#4C1D95" opacity="0.35"/>
+    <circle cx="80" cy="112" r="3.2" fill="#3B0764"/>
+    <circle cx="104" cy="112" r="3.2" fill="#3B0764"/>
+    <path d="M82 126c6 6 14 6 20 0" fill="none" stroke="#6D28D9" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M52 188h80" fill="none" stroke="#7C3AED" stroke-width="8" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <text x="310" y="128" fill="#F5F3FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="700">Orieb Alzyuot</text>
+  <text x="310" y="172" fill="#E9D5FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22">Senior UI/UX and Front-End</text>
+  <text x="310" y="214" fill="#DDD6FE" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Amman · Remote · Open to work</text>
+</svg>
