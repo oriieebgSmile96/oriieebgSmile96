@@ -136,9 +136,9 @@
   <!-- text -->
   <text x="360" y="112" fill="#F5F3FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="800">Orieb Alzyuot</text>
   <text x="682" y="112" fill="#F0ABFC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30">✨</text>
-  <text x="360" y="156" fill="#E9D5FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22">Senior UI/UX &amp; Front-End Developer</text>
-  <text x="360" y="194" fill="#DDD6FE" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Angular  ·  .NET  ·  React Native  ·  Figma</text>
-  <text x="360" y="232" fill="#C4B5FD" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-style="italic">Amman  |  Remote  |  Open to work</text>
+  <text x="360" y="156" fill="#E9D5FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22">Senior Front-End · Full-Stack Web &amp; Mobile Dev</text>
+  <text x="360" y="194" fill="#DDD6FE" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Angular  ·  React / React Native  ·  Node  ·  .NET Core  ·  Azure  ·  Docker</text>
+  <text x="360" y="232" fill="#C4B5FD" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-style="italic">Amman  |  Remote / Relocation  |  Open to work  |  next stop: AI 🤖</text>
 
   <!-- Smile tag -->
   <g transform="translate(360 262)">
