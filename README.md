@@ -8,6 +8,7 @@
   <b>Senior Front-End · Full-Stack Web & Mobile Developer</b> · Amman, Jordan 🇯🇴<br/>
   Remote · Relocation · Full-Time · Part-Time · Per-Project / Freelance<br/>
   <sub>🤖 Next stop: <b>AI developer</b> — building with it, and building it.</sub><br/>
+  <sub>💜 <b>Human-first, always.</b> Every screen, API and AI feature I build starts with the person using it.</sub><br/>
   <sub>Smile ☁️ ✨ 🐋 — that's the Orieb way.</sub>
 </p>
 
@@ -26,6 +27,8 @@ Senior Front-End and Mid Full-Stack **Web & Mobile Developer** with **6+ years**
 
 **Where I'm heading: AI.** I already ship with Claude and Cursor every day; my next chapter is building AI-powered products and agents myself.
 
+**What never changes: the human.** Senior for me means the tech serves the person on the other side of the screen — clear flows, accessibility, Arabic/RTL that feels native, honest error states, and AI that helps instead of replaces. Focus on humans, all the time. 💜
+
 ```ts
 const orieb = {
   callsign:     "oriieebgSmile96",
@@ -38,6 +41,7 @@ const orieb = {
   cloud:        ["Microsoft Azure", "Docker", "CI/CD"],
   ai:           ["Claude", "Cursor", "Claude Code"],
   nextStop:     "AI Developer 🤖 — agents, LLM apps, AI-first UX",
+  focus:        "Humans, all the time 💜 — accessible, RTL-native, honest UX",
   mindset:      "Fish & whale 🐋 — start tiny, grow big",
   rule:         "Forget '5 min'. Open the editor. Write code.",
   always:       "Smile ☁️ ✨",
@@ -58,13 +62,27 @@ const orieb = {
 
 Platforms I've worked on: 🏛️ [Saudi Bar Association — complaints QC](https://qccx.sba.gov.sa/) · ⚖️ Ministry of Justice (<bdi>وزارة العدل</bdi>) · 🧭 Mirafh · 🏗️ [Saudi Engineering Arbitration Center](https://web01.techprocess.net:28059)
 
-## 🛰️ Previous missions
+## 🛰️ Previous orbit — Tahaluf Al Emarat Technical Solutions
 
-| Station | When | Payload |
-| --- | --- | --- |
-| **Tahaluf Al Emarat Technical Solutions** — Front-End Web Developer | Jun 2023 – Nov 2023 · Amman | Key modules for low-code/no-code business automation platforms (Angular 16, PrimeNG); performance and load-time optimizations |
-| **Shepherd Technologies** — Front-End Web Developer | Nov 2021 – Jun 2023 · Amman | Responsive SPAs for Human Capital Management suites (Payroll & Performance) in Angular + REST; refactored legacy front-ends |
-| **PenguinIN** — Full-Stack Web Developer | Nov 2020 – Nov 2021 · Amman | Indoor-navigation CMS products with Node.js, React, OpenLayers and PostgreSQL |
+**Front-End Web Developer · Jun 2023 – Nov 2023 · Amman, Jordan**
+
+- Developed key modules for **low-code / no-code business automation platforms** using **Angular 16** and **PrimeNG**.
+- Optimized application performance and resolved UI integration bugs, **reducing load times**.
+- Reported PrimeNG bugs upstream along the way (see the open-source radar below).
+
+## 🛰️ Previous orbit — Shepherd Technologies
+
+**Front-End Web Developer · Nov 2021 – Jun 2023 · Amman, Jordan**
+
+- Developed responsive SPAs for **Human Capital Management** suites (**Payroll & Performance** modules) using **Angular** and REST APIs.
+- Refactored legacy front-end codebases to improve maintainability and system performance.
+
+## 🛰️ Previous orbit — PenguinIN
+
+**Full-Stack Web Developer · Nov 2020 – Nov 2021 · Amman, Jordan**
+
+- Built **indoor-navigation CMS** products using **Node.js, React, OpenLayers** and **PostgreSQL** backend services.
+- First full-stack mission: owned both the map-heavy React front-end and the Node/PostgreSQL API behind it.
 
 ## 🧰 Toolkit on board
 
@@ -142,11 +160,23 @@ Plus dozens of merged PRs on production Angular / .NET / React Native codebases 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oriieebgSmile96&layout=compact&hide_border=true&title_color=A855F7&text_color=E9D5FF&bg_color=12042B" alt="Top languages" height="160" />
 </p>
 
-## 🎓 Launch pad
+## 🎓 Launch pad — Al-Balqa Applied University
 
-- **B.Sc. Communication & Software Engineering** — Al-Balqa Applied University, 2014 – 2018 · GPA 3.58 / 4.00 · **Ranked 2nd in class** 🥈
-- **Full Stack Web Development Intensive** — Hack Reactor curriculum, Mar – Aug 2020 · 12-week immersive program
-- **Verified LinkedIn skill certifications:** Angular, React.js, Node.js, JavaScript, TypeScript, Git, Agile Methodologies
+**B.Sc. Communication & Software Engineering · 2014 – 2018 · Amman, Jordan**
+
+- GPA **3.58 / 4.00** · **Ranked 2nd in class** 🥈
+
+## 🎓 Launch pad — Hack Reactor curriculum
+
+**Full Stack Web Development Intensive · Mar – Aug 2020**
+
+- 12-week immersive program: JavaScript, Node.js, React, data structures, full-stack projects.
+
+## 📜 Certifications
+
+**Verified LinkedIn skill certifications**
+
+- Angular · React.js · Node.js · JavaScript · TypeScript · Git · Agile Methodologies
 
 ---
 
