@@ -121,6 +121,20 @@ Full-stack today, **AI developer tomorrow**. I'm learning by building: LLM-power
 
 That's the whole idea behind [**5min**](https://github.com/oriieebgSmile96/5min): small, daily, shipped. Fish-and-whale mindset 🐋 — start tiny, grow big, and **smile** while you do it.
 
+## 🐛 Open-source radar — bugs I found in the wild
+
+When a library breaks in production, I don't just work around it — I report it upstream with a reproducer so the next dev doesn't hit the same wall.
+
+| Library | Report | What happened | Status |
+| --- | --- | --- | --- |
+| 📄 **Mozilla pdf.js** (`pdfjs-dist` 5.4) | [#20306](https://github.com/mozilla/pdf.js/issues/20306) | After upgrading, PDFs stopped rendering on iPhone 15 Pro (Safari/Chrome) while iPhone 11 worked — caught the device-specific regression on mobile. | ✅ Closed / resolved |
+| 🎨 **PrimeNG** (Angular 16) | [#13468](https://github.com/primefaces/primeng/issues/13468) | `ContextMenu` items could no longer be swapped at right-click time after the new `processedItems` internals — the old `model` override silently stopped working. | ✅ Closed / resolved |
+| 🎨 **PrimeNG** | [#13479](https://github.com/primefaces/primeng/issues/13479) | `Dialog` / `DynamicDialog` drag broke when the cursor crossed into the body — the drag handle disappeared mid-drag. | ✅ Closed / resolved |
+| 🎨 **PrimeNG** | [#13506](https://github.com/primefaces/primeng/issues/13506) | `Dropdown` virtual scroll is front-end only — proposed server-side lazy loading (page index / size on scroll-to-end). | ✅ Closed |
+| 🅰️ **yangular** | [#61](https://github.com/yantrab/yangular/issues/61) | Requested an upgrade to current Angular versions. | 🟣 Open |
+
+Plus dozens of merged PRs on production Angular / .NET / React Native codebases — RTL fixes, SignalR, OTP flows, Expo mobile parity, admin dashboards.
+
 ## 📡 Telemetry
 
 <p align="center">
