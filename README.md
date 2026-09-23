@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./orieb-space-banner.svg" alt="Orieb Alzyuot — Senior Front-End and Full-Stack Web & Mobile Developer, floating in purple space" width="100%" />
+  <img src="./orieb-banner-v3.svg" alt="Orieb Alzyuot — Senior Front-End and Full-Stack Web & Mobile Developer, floating in purple space" width="100%" />
 </p>
 
 <h1 align="center">🪐 Hi, I'm Orieb — welcome to my little purple galaxy ✨</h1>
