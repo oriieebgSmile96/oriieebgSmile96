@@ -10,7 +10,7 @@ I design interfaces and build them. Six years of product UI, mostly Angular, fro
 
 **Tools** — Figma, Angular, .NET, React Native, TypeScript, Docker.
 
-**Selected work** — [Saudi Engineering Arbitration Center](https://web01.techprocess.net:28059/), [complaints staging](https://stgcx.sba.gov.sa), and [complaints QC](https://qccx.sba.gov.sa/). Earlier: a low-code product, a payroll suite, and an indoor-navigation CMS.
+**Selected work** — [Saudi Engineering Arbitration Center](https://web01.techprocess.net:28059). Earlier: a low-code product, a payroll suite, and an indoor-navigation CMS.
 
 [Email](mailto:alzuotorieb9999@gmail.com) · [+962 77585 3203](tel:+962775853203) · [LinkedIn](https://www.linkedin.com/in/orieb-alzyuot996) · [CV](./Orieb-Alzyuot-CV-2026.pdf)
 
